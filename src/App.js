@@ -12,6 +12,7 @@ import { SemiResizable } from './components/SemiResizable'
 import { SemiAutoComplete1 } from './components/SemiAutoComplete1'
 import { SemiAutoComplete2 } from './components/SemiAutoComplete2'
 import { SemiAutoComplete3 } from './components/SemiAutoComplete3'
+import { SemiCascader } from './components/SemiCascader'
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
     // <SemiResizable/>
     // <SemiAutoComplete1/>
     // <SemiAutoComplete2/>
-    <SemiAutoComplete3/>
+    // <SemiAutoComplete3/>
+    <SemiCascader/>
   )
 }
 

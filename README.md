@@ -237,7 +237,7 @@ https://semi.design/zh-CN/basic/tokens
 
 ## 输入类
 
-- autocomplete 自动补全 https://semi.design/zh-CN/input/autocomplete
+- 自动补全 autocomplete: https://semi.design/zh-CN/input/autocomplete
     - data, 数组类型
         - 如果元素是一个 Object， 必须有 value、label 字段
     - prefix 选择框的前缀标签
@@ -251,4 +251,15 @@ https://semi.design/zh-CN/basic/tokens
     - emptyContent data 为空时自定义下拉内容
     - autoFocus 是否自动聚焦
     - showClear 是否展示清除按钮
-- 
+- 级联选择 cascader: https://semi.design/zh-CN/input/cascader
+    - treeData 数据结构是一个 tree 型，label、value、children
+    - multiple 多选
+    - filterTreeNode 可搜索节点，默认根据 label 属性搜索，使用 includes 方法匹配
+    - treeNodeFilterProp 指定 filterTreeNode 所匹配的属性
+    - filterLeafOnly 只搜索叶子节点
+    - maxTagCount 标签展示的数量
+    - max
+    - leafOnly 只能选择叶子节点
+    - bottomSlot 底部插槽
+    - topSlot 顶部插槽
+    - showNext 设置展开 Dropdown 子菜单的方式，默认是 click
