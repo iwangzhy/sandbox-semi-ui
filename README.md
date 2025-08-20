@@ -53,7 +53,8 @@ if (body.hasAttribute('theme-mode')) {
 
 **和系统主题保持一致**
 
-通过 [`prefers-color-scheme`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/@media/prefers-color-scheme) 属性来与系统主题保持一致。
+通过 [`prefers-color-scheme`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/@media/prefers-color-scheme)
+属性来与系统主题保持一致。
 
 ```js
 const mql = window.matchMedia('(prefers-color-scheme: dark)')
@@ -82,3 +83,67 @@ Semi 支持局部暗黑/亮色模式，在需要暗黑模式的顶级元素加�
 ## 文案规范
 
 https://semi.design/zh-CN/start/content-guidelines
+
+## Design Token
+
+将设计中的基础元素与具体的样式进行解耦。
+
+### 基础色
+
+因为**风格样式是在不断迭代的**，在迭代的过程中只需要修改 **变量对象的属性值** 。
+
+`--semi-{color}-x`
+
+### 功能色
+
+- --semi-color-xxx
+- --semi-color-xxx-hover
+- --semi-color-xxx-active
+- --semi-color-xxx-disabled
+- --semi-color-xxx-light-default 浅版主要颜色（多用于背景）。**仅**在需要非常强调的情况下使用。
+- --semi-color-xxx-light-hover
+- --semi-color-xxx-light-active
+
+1. 主要颜色 - primary， 主要颜色，**仅**在需要非常强调的情况下使用。
+2. 次要颜色 - secondary
+3. 第三颜色 - tertiary，用户界面中非强调色及各种交互态颜色，通常用于常规、非强调功能操作按钮。
+4. 信息 - info， 表达客观、中立信息
+5. 成功 - success, 成功、完成、开启状态
+6. 警示 - warning, 警告、不安全状态
+7. 危险 - danger
+8. 文本与图标颜色 - text
+9. 链接颜色 - link
+10. 背景色 - bg  `--semi-color-bg-0` 数字越大越靠近上层
+11. 填充色 - fill
+12. 描边色 - border `--semi-corlor-border`
+13. 禁用态 - disabled `--semi-color-disabled-text`, `--semi-color-disabled-border`, `--semi-color-disabled-bg`,
+    `--semi-color-disabled-fill`
+14. 常量色 - static
+15. 拟阴影色 - shadow `--semi-corlor-shadow`
+
+### 字体排版
+
+1. 字号 `$font-size-header-x`(x 级标题字体，1-6), `$font-size-small`(小号字体), `$font-size-regular`(常规字体)
+2. 字重 `$font-weight-light`, `$font-weight-regualr`, `$font-weight-weight`
+3. 字体
+
+### 圆角
+
+![](https://minio.wangzhy.com/picgo/202508201118699.png)
+
+### 阴影
+![](https://minio.wangzhy.com/picgo/202508201118666.png)
+### 尺寸
+![](https://minio.wangzhy.com/picgo/202508201118394.png)
+![](https://minio.wangzhy.com/picgo/202508201118790.png)
+![](https://minio.wangzhy.com/picgo/202508201118717.png)
+### 间距
+![](https://minio.wangzhy.com/picgo/202508201118321.png)
+### z-index
+![](https://minio.wangzhy.com/picgo/202508201119053.png)
+![](https://minio.wangzhy.com/picgo/202508201119013.png)
+### 动画
+
+https://semi.design/zh-CN/basic/tokens
+
+
