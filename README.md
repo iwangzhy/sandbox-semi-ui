@@ -183,9 +183,9 @@ https://semi.design/zh-CN/basic/tokens
     - Text 文本
         - size `small`, `normal`, `inherit`
         - ellipsis 省略文本
-          - 仅支持存文本的截断
-          - 要有明确的 width/maxWidth
-          - 自身或父级存在 display:none 会导致缩略失效
+            - 仅支持存文本的截断
+            - 要有明确的 width/maxWidth
+            - 自身或父级存在 display:none 会导致缩略失效
     - Paragraph 段落
         - spacing `extended`, 宽松行间距
         - copyable 可复制
@@ -201,3 +201,16 @@ https://semi.design/zh-CN/basic/tokens
             - text
             - numbers
             - exponential 科学计数法
+- 按钮 button: https://semi.design/zh-CN/basic/button
+    - theme 主题
+        - solid 深色背景
+        - light 浅色背景
+        - borderless 无背景
+        - outline 边框模式
+    - size 大小
+      - large
+      - default
+      - small
+    - block 块级按钮
+    - icon 图标按钮
+    - disabled
