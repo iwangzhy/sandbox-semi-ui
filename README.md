@@ -174,3 +174,7 @@ https://semi.design/zh-CN/basic/tokens
     - Content：内容部分
     - Footer：底部布局
     - 布局模式采用 flex 布局实现。
+- 间距 space: https://semi.design/zh-CN/basic/space
+    - algin 设置对其方式，`start`, `center`, `end`, `baseline`
+    - spacing 设置间距，`tight`, `medium`, `loose`, `{[10,16]}`
+    - wrap, 自动换行，要求间距是水平方向。

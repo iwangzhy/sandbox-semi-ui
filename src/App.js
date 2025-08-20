@@ -5,6 +5,7 @@ import { SemiDivider } from './components/SemiDivider'
 import { SemiGrid } from './components/SemiGrid'
 import { SemiIcon } from './components/SemiIcon'
 import { SemiLayout } from './components/SemiLayout'
+import { SemiSpace } from './components/SemiSpace'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
     // <SemiDivider/>
     // <SemiGrid/>
     // <SemiIcon/>
-    <SemiLayout/>
+    // <SemiLayout/>
+    <SemiSpace/>
   )
 }
 
