@@ -156,4 +156,8 @@ https://semi.design/zh-CN/basic/tokens
 
 ## 基础组件
 
-分割线 divider：https://semi.design/zh-CN/basic/divider
+- 分割线 divider：https://semi.design/zh-CN/basic/divider
+- 栅格 grid: https://semi.design/zh-CN/basic/grid
+  - 基于 row、col 
+  - 支持 flex 布局
+  - 支持使用 order 来定义元素的排列顺序
