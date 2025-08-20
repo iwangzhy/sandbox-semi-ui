@@ -9,6 +9,9 @@ import { SemiSpace } from './components/SemiSpace'
 import { SemiTypography } from './components/SemiTypography'
 import { SemiButton } from './components/SemiButton'
 import { SemiResizable } from './components/SemiResizable'
+import { SemiAutoComplete1 } from './components/SemiAutoComplete1'
+import { SemiAutoComplete2 } from './components/SemiAutoComplete2'
+import { SemiAutoComplete3 } from './components/SemiAutoComplete3'
 
 function App() {
   return (
@@ -22,7 +25,10 @@ function App() {
     // <SemiSpace/>
     // <SemiTypography/>
     // <SemiButton/>
-    <SemiResizable/>
+    // <SemiResizable/>
+    // <SemiAutoComplete1/>
+    // <SemiAutoComplete2/>
+    <SemiAutoComplete3/>
   )
 }
 

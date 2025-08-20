@@ -234,3 +234,20 @@ https://semi.design/zh-CN/basic/tokens
         - parent
         - window
     - snap 阶段性调整宽高
+
+## 输入类
+
+- autocomplete 自动补全
+    - data, 数组类型
+        - 如果元素是一个 Object， 必须有 value、label 字段
+    - prefix 选择框的前缀标签
+    - position 下拉菜单的显示位置
+    - loading 下拉列表是否展示加载动画
+    - disabled
+    - onSearch 输入变化时的回调
+    - renderItem 控制下拉列表候选项的渲染
+    - renderSelectedItem 通过 renderSelectedItem 自定义下拉列表候选项被点击选中后，在选择框中的渲染内容
+    - onSelect 下拉菜单候选项被选中时的回调
+    - emptyContent data 为空时自定义下拉内容
+    - autoFocus 是否自动聚焦
+    - showClear 是否展示清除按钮
