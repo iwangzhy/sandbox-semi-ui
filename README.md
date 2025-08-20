@@ -263,3 +263,4 @@ https://semi.design/zh-CN/basic/tokens
     - bottomSlot 底部插槽
     - topSlot 顶部插槽
     - showNext 设置展开 Dropdown 子菜单的方式，默认是 click
+- 复选框 checkbox: https://semi.design/zh-CN/input/checkbox
