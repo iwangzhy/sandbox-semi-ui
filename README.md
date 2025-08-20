@@ -161,3 +161,9 @@ https://semi.design/zh-CN/basic/tokens
   - 基于 row、col 
   - 支持 flex 布局
   - 支持使用 order 来定义元素的排列顺序
+- 图标 icon: https://semi.design/zh-CN/basic/icon
+  - 默认图标集 `@douyinfe/semi-icons`
+  - 彩色图标集 `@douyinfe/semi-icons-lab`
+  - 可以通过改变 size 属性来调整 icon 的大小， `extra-small`, `small`, `default`, `large`, `extra-large`, `inherit`, 
+  - 颜色，会自动继承外部容器 css 的 color 属性，可以通过 style 来指定。
+  - 自定义图标，（svg）
