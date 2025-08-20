@@ -79,3 +79,6 @@ mql.addListener(matchMode)
 
 Semi 支持局部暗黑/亮色模式，在需要暗黑模式的顶级元素加上 `.semi-always-dark` 或者 `.semi-always-light` 的 css class.
 
+## 文案规范
+
+https://semi.design/zh-CN/start/content-guidelines
