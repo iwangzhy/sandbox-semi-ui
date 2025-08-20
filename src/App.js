@@ -1,10 +1,13 @@
-import './App.css';
-import SemiApp from './components/SemiApp'
+import './App.css'
+import { SwitchMode } from './components/SwitchMode'
+import DarkMode from './components/DarkMode'
 
 function App() {
   return (
-    <SemiApp/>
-  );
+    // <SemiApp/>
+    // <SwitchMode/>
+    <DarkMode/>
+  )
 }
 
-export default App;
+export default App
