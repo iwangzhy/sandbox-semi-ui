@@ -1,12 +1,13 @@
 import './App.css'
 import { SwitchMode } from './components/SwitchMode'
-import DarkMode from './components/DarkMode'
+import { SemiDivider } from './components/SemiDivider'
 
 function App() {
   return (
     // <SemiApp/>
     // <SwitchMode/>
-    <DarkMode/>
+    // <DarkMode/>
+    <SemiDivider/>
   )
 }
 

@@ -132,18 +132,28 @@ https://semi.design/zh-CN/start/content-guidelines
 ![](https://minio.wangzhy.com/picgo/202508201118699.png)
 
 ### 阴影
+
 ![](https://minio.wangzhy.com/picgo/202508201118666.png)
+
 ### 尺寸
+
 ![](https://minio.wangzhy.com/picgo/202508201118394.png)
 ![](https://minio.wangzhy.com/picgo/202508201118790.png)
 ![](https://minio.wangzhy.com/picgo/202508201118717.png)
+
 ### 间距
+
 ![](https://minio.wangzhy.com/picgo/202508201118321.png)
+
 ### z-index
+
 ![](https://minio.wangzhy.com/picgo/202508201119053.png)
 ![](https://minio.wangzhy.com/picgo/202508201119013.png)
+
 ### 动画
 
 https://semi.design/zh-CN/basic/tokens
 
+## 基础组件
 
+分割线 divider：https://semi.design/zh-CN/basic/divider
