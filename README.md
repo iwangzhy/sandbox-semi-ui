@@ -158,12 +158,19 @@ https://semi.design/zh-CN/basic/tokens
 
 - 分割线 divider：https://semi.design/zh-CN/basic/divider
 - 栅格 grid: https://semi.design/zh-CN/basic/grid
-  - 基于 row、col 
-  - 支持 flex 布局
-  - 支持使用 order 来定义元素的排列顺序
+    - 基于 row、col
+    - 支持 flex 布局
+    - 支持使用 order 来定义元素的排列顺序
 - 图标 icon: https://semi.design/zh-CN/basic/icon
-  - 默认图标集 `@douyinfe/semi-icons`
-  - 彩色图标集 `@douyinfe/semi-icons-lab`
-  - 可以通过改变 size 属性来调整 icon 的大小， `extra-small`, `small`, `default`, `large`, `extra-large`, `inherit`, 
-  - 颜色，会自动继承外部容器 css 的 color 属性，可以通过 style 来指定。
-  - 自定义图标，（svg）
+    - 默认图标集 `@douyinfe/semi-icons`
+    - 彩色图标集 `@douyinfe/semi-icons-lab`
+    - 可以通过改变 size 属性来调整 icon 的大小， `extra-small`, `small`, `default`, `large`, `extra-large`, `inherit`,
+    - 颜色，会自动继承外部容器 css 的 color 属性，可以通过 style 来指定。
+    - 自定义图标，（svg）
+- 布局 layout: https://semi.design/zh-CN/basic/layout
+    - Layout: 布局容器，可以嵌套Header、Sider、Content、Footer
+    - Header：顶部布局
+    - Sider：侧边栏
+    - Content：内容部分
+    - Footer：底部布局
+    - 布局模式采用 flex 布局实现。
