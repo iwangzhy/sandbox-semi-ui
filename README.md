@@ -208,9 +208,29 @@ https://semi.design/zh-CN/basic/tokens
         - borderless 无背景
         - outline 边框模式
     - size 大小
-      - large
-      - default
-      - small
+        - large
+        - default
+        - small
     - block 块级按钮
     - icon 图标按钮
     - disabled
+- 伸缩框 resizable: https://semi.design/zh-CN/basic/resizable
+    - defaultSize 初始大小
+        - width
+        - height
+    - enable 控制伸缩方向，默认均为 true
+        - top
+        - left
+        - right
+        - bottom
+        - topLeft
+        - topRight
+        - bottomLeft
+        - bottomRight
+    - ratio 拖动和实际变化的比例
+    - lockAspectRatio 锁定横纵比
+    - scale 整体缩放
+    - boundElement 限制宽高的元素（宽高不允许超过指定的元素）
+        - parent
+        - window
+    - snap 阶段性调整宽高

@@ -8,6 +8,7 @@ import { SemiLayout } from './components/SemiLayout'
 import { SemiSpace } from './components/SemiSpace'
 import { SemiTypography } from './components/SemiTypography'
 import { SemiButton } from './components/SemiButton'
+import { SemiResizable } from './components/SemiResizable'
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
     // <SemiLayout/>
     // <SemiSpace/>
     // <SemiTypography/>
-    <SemiButton/>
+    // <SemiButton/>
+    <SemiResizable/>
   )
 }
 
