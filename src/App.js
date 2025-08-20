@@ -6,6 +6,7 @@ import { SemiGrid } from './components/SemiGrid'
 import { SemiIcon } from './components/SemiIcon'
 import { SemiLayout } from './components/SemiLayout'
 import { SemiSpace } from './components/SemiSpace'
+import { SemiTypography } from './components/SemiTypography'
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
     // <SemiGrid/>
     // <SemiIcon/>
     // <SemiLayout/>
-    <SemiSpace/>
+    // <SemiSpace/>
+    <SemiTypography/>
   )
 }
 

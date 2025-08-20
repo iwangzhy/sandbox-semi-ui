@@ -178,3 +178,26 @@ https://semi.design/zh-CN/basic/tokens
     - algin 设置对其方式，`start`, `center`, `end`, `baseline`
     - spacing 设置间距，`tight`, `medium`, `loose`, `{[10,16]}`
     - wrap, 自动换行，要求间距是水平方向。
+- 版式 typography： https://semi.design/zh-CN/basic/typography
+    - Title 标题
+    - Text 文本
+        - size `small`, `normal`, `inherit`
+        - ellipsis 省略文本
+          - 仅支持存文本的截断
+          - 要有明确的 width/maxWidth
+          - 自身或父级存在 display:none 会导致缩略失效
+    - Paragraph 段落
+        - spacing `extended`, 宽松行间距
+        - copyable 可复制
+            - content 复制的文本
+            - render 自定义复制按钮的渲染逻辑
+    - Numeral 数值组件
+        - precision 精度，保留的小数位
+        - truncate 小数截取方式，`ceil`,`floor`, `round`
+        - rule 解析规则
+            - percentages 百分比
+            - bytes-decimal 转换为字节，B, KB, MB, GB, TB, PB, EB, ZB, YB
+            - bytes-binary
+            - text
+            - numbers
+            - exponential 科学计数法
