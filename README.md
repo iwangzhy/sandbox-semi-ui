@@ -327,3 +327,19 @@ https://semi.design/zh-CN/basic/tokens
         - useFormState
         - useFieldApi
         - useFieldState
+- 输入框 input: https://semi.design/zh-CN/input/input
+    - Input
+        - addOnBefore 前置标签
+        - addOnAfter 后置标签
+        - defaultValue 默认值
+        - value 受控组件
+        - mode, password
+        - size large,default,small
+        - onEnterPress 回车键的回调
+        - prefix
+        - suffix 后缀标签
+        - validateStatus 校验状态
+    - TextArea
+        - autoSize 高度根据输入的文字确定
+        - maxCount 设置最大字数限制，并显示字数统计
+        - rows 默认行数
