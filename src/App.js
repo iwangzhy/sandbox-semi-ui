@@ -17,6 +17,15 @@ import { SemiCheckbox } from './components/SemiCheckbox'
 import { SemiColorPicker } from './components/SemiColorPicker'
 import { SemiDatePicker } from './components/SemiDatePicker'
 import { TimePickerButton } from './components/gallery/TimePickerButton'
+import { SemiForm } from './components/SemiForm'
+import { FormField } from './components/gallery/FormField'
+import { FormGroup } from './components/gallery/FormGroup'
+import { ModalForm } from './components/gallery/ModalForm'
+import { FormLevelValidateSync } from './components/gallery/FormLevelValidateSync'
+import { FormLevelValidateAsync } from './components/gallery/FormLevelValidateAsync'
+import { FieldLevelValidate } from './components/gallery/FieldLevelValidate'
+import { PartValidAndResetDemo } from './components/gallery/PartValidAndResetDemo'
+import { ArrayFieldDemo } from './components/gallery/ArrayFieldDemo'
 
 function App() {
   return (
@@ -38,7 +47,16 @@ function App() {
     // <SemiCheckbox/>
     // <SemiColorPicker/>
     // <SemiDatePicker/>
-    <TimePickerButton/>
+    // <TimePickerButton/>
+    // <SemiForm/>
+    // <FormField/>
+    // <FormGroup/>
+    // <ModalForm/>
+    // <FormLevelValidateSync/>
+    // <FormLevelValidateAsync/>
+    // <FieldLevelValidate/>
+    // <PartValidAndResetDemo/>
+    <ArrayFieldDemo/>
   )
 }
 

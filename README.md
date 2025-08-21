@@ -299,3 +299,31 @@ https://semi.design/zh-CN/basic/tokens
         - 点击触发器，出现日期选择面板
     - renderDate 自定义面板日期显示内容
     - renderFullDate 自定义面板日期格子渲染
+- 表单 form: https://semi.design/zh-CN/input/form
+    - 表单内的组件需要使用 Form.xxx
+    - onValueChange
+    - render, 返回 jsx 代码，通过 jsx 代码渲染 Form 表单
+    - 在 From 内部可以访问到 `formState`, `values`, `formApi`
+    - component 直接将整个内部结构以 ReactNode 形式传入
+    - initValues Form 表单内组件的默认值
+    - layout, `horizontal|vertical`
+    - labelPosition, 控制 label 的文字
+    - labelAlign，控制 label 对齐的方向
+    - wrapperCol, labelCol
+    - noLabel, 隐藏 label
+    - labelPosition='inset' 表示内嵌 label
+    - validateFields, 一个函数，参数是 values，返回值是一个对象，字段是 field ，值是错误信息。
+    - Form.Field
+        - field 字段名称 **每个表单控件都需要以 field 属性绑定一个字段名称，用于将表单项的值正确映射到 `FormState`
+          values / errors / touched 中**
+        - label
+            - text
+            - extraText
+    - Form.Section 表单分组，对 Fields 进行分组，仅影响布局，不会影响数据结构
+    - Form.Slot 放置自定义组件，可以让自定义组件与 Form.Field 保持同样的布局样式。
+    - InputGroup 组合多个 Form.Field
+    - hooks
+        - useFormApi
+        - useFormState
+        - useFieldApi
+        - useFieldState
