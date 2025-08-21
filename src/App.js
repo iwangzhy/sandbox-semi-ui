@@ -14,6 +14,7 @@ import { SemiAutoComplete2 } from './components/SemiAutoComplete2'
 import { SemiAutoComplete3 } from './components/SemiAutoComplete3'
 import { SemiCascader } from './components/SemiCascader'
 import { SemiCheckbox } from './components/SemiCheckbox'
+import { SemiColorPicker } from './components/SemiColorPicker'
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
     // <SemiAutoComplete2/>
     // <SemiAutoComplete3/>
     // <SemiCascader/>
-    <SemiCheckbox/>
+    // <SemiCheckbox/>
+    <SemiColorPicker/>
   )
 }
 

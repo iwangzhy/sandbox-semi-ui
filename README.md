@@ -264,3 +264,11 @@ https://semi.design/zh-CN/basic/tokens
     - topSlot 顶部插槽
     - showNext 设置展开 Dropdown 子菜单的方式，默认是 click
 - 复选框 checkbox: https://semi.design/zh-CN/input/checkbox
+- 颜色选择器 ColorPicker: https://semi.design/zh-CN/input/colorpicker
+    - onChange
+    - alpha 是否开启透明度选择
+    - bottomSlot
+    - topSlot
+    - defaultValue
+    - eyeDropper 滴管拾色器
+    - usePopover 是否放入 Popover 渲染
