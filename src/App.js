@@ -27,6 +27,7 @@ import { FieldLevelValidate } from './components/gallery/FieldLevelValidate'
 import { PartValidAndResetDemo } from './components/gallery/PartValidAndResetDemo'
 import { ArrayFieldDemo } from './components/gallery/ArrayFieldDemo'
 import { SemiInput } from './components/SemiInput'
+import { SemiInputNumber } from './components/SemiInputNumber'
 
 function App() {
   return (
@@ -58,7 +59,8 @@ function App() {
     // <FieldLevelValidate/>
     // <PartValidAndResetDemo/>
     // <ArrayFieldDemo/>
-    <SemiInput/>
+    // <SemiInput/>
+    <SemiInputNumber/>
   )
 }
 

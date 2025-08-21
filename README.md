@@ -343,3 +343,11 @@ https://semi.design/zh-CN/basic/tokens
         - autoSize 高度根据输入的文字确定
         - maxCount 设置最大字数限制，并显示字数统计
         - rows 默认行数
+- 数字输入框 InputNumber https://semi.design/zh-CN/input/inputnumber
+    - formatter, parser 搭配使用,用于格式化展示值
+    - hideButtons, innerButtons 显示步进按钮
+    - max, min
+    - precision 精度
+    - prefix, suffix
+    - step 步长
+    - shiftStep 按住 shift 同时点击按钮的步长
