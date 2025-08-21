@@ -28,6 +28,7 @@ import { PartValidAndResetDemo } from './components/gallery/PartValidAndResetDem
 import { ArrayFieldDemo } from './components/gallery/ArrayFieldDemo'
 import { SemiInput } from './components/SemiInput'
 import { SemiInputNumber } from './components/SemiInputNumber'
+import { SemiPinCode } from './components/SemiPinCode'
 
 function App() {
   return (
@@ -60,7 +61,8 @@ function App() {
     // <PartValidAndResetDemo/>
     // <ArrayFieldDemo/>
     // <SemiInput/>
-    <SemiInputNumber/>
+    // <SemiInputNumber/>
+    <SemiPinCode/>
   )
 }
 

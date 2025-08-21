@@ -351,3 +351,8 @@ https://semi.design/zh-CN/basic/tokens
     - prefix, suffix
     - step 步长
     - shiftStep 按住 shift 同时点击按钮的步长
+- 验证码输入 pincode https://semi.design/zh-CN/input/pincode
+    - onComplete
+    - onChange
+    - count
+    - format, number, mixed,正则表达式
