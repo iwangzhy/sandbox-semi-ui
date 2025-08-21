@@ -15,6 +15,8 @@ import { SemiAutoComplete3 } from './components/SemiAutoComplete3'
 import { SemiCascader } from './components/SemiCascader'
 import { SemiCheckbox } from './components/SemiCheckbox'
 import { SemiColorPicker } from './components/SemiColorPicker'
+import { SemiDatePicker } from './components/SemiDatePicker'
+import { TimePickerButton } from './components/gallery/TimePickerButton'
 
 function App() {
   return (
@@ -34,7 +36,9 @@ function App() {
     // <SemiAutoComplete3/>
     // <SemiCascader/>
     // <SemiCheckbox/>
-    <SemiColorPicker/>
+    // <SemiColorPicker/>
+    // <SemiDatePicker/>
+    <TimePickerButton/>
   )
 }
 

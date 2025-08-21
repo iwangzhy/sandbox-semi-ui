@@ -272,3 +272,30 @@ https://semi.design/zh-CN/basic/tokens
     - defaultValue
     - eyeDropper 滴管拾色器
     - usePopover 是否放入 Popover 渲染
+- 日期选择器 DatePicker: https://semi.design/zh-CN/input/datepicker
+    - onChange， 参数是 date,dateString
+    - density, 控制日期面板的尺寸， compact, default
+    - multiple, 可选择多个日期
+    - type
+        - date
+        - dateRange 日期范围选择
+        - dateTime , 选择 `日期 + 时间`
+            - 当 type 设置为 `dateTime` 时，如果想要设置 0-24 小时的选择是无限滚动的效果，需要指定 `timePickerOpts`
+        - dateTimeRange 日期+时间 范围选择
+        - month
+        - monthRange
+    - insetInput
+    - syncSwitchMonth 时间范围组件，是否允许双面板同步切换, 默认 false
+    - onPanelChange 在面板的月份或年份切换时被调用。
+    - 周选择，通过 weekStartsOn + startDateOffset + endDateOffset
+    - needConfirm 确认按钮，`type=dateRange|dateTimeRange` 时有效
+        - 可以搭配 onConfirm, onCancel 使用
+    - presets 带快捷方式的日期选择
+    - disabled
+    - placeholder
+    - disabledTime, disabledDate 禁用部分日期时间
+    - format 自定义格式化
+    - triggerRender 触发器
+        - 点击触发器，出现日期选择面板
+    - renderDate 自定义面板日期显示内容
+    - renderFullDate 自定义面板日期格子渲染
