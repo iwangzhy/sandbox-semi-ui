@@ -441,3 +441,14 @@ https://semi.design/zh-CN/basic/tokens
     - maxTagCount， 限制 tag 显示的数量
     - renderTagItem 自定义标签渲染
     - draggable 允许拖拽排序
+- 穿梭框 transfer https://semi.design/zh-CN/input/transfer
+    - 数据项： `{value, label, key}`
+    - dataSource 数据来源
+    - type `list|groupList|treeList`
+        - list, 数组，`{value, label, key}`
+        - groupList, 数据源的结构：一级子元素必须拥有 `title`、`children` 属性，二级结构 `{value, label, key}`
+        - treeList, `{value, label, key, children}`
+    - filter 自定义搜索逻辑
+    - renderSelectedItem
+    - renderSourceItem
+    - draggle 允许拖拽已选择的 item 进行排序
