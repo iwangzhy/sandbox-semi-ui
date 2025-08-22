@@ -466,3 +466,27 @@ https://semi.design/zh-CN/basic/tokens
     - renderSelectedItem
     - renderSourceItem
     - draggle 允许拖拽已选择的 item 进行排序
+- 上传 upload  https://semi.design/zh-CN/input/upload
+    - showTooltip, （文件名较长时）鼠标悬浮，是否显示文件名
+        - boolean，控制是否显示
+        - {renderTooltip} , 控制如何渲染
+    - listType="picture"
+    - prompt 提示文本插槽
+    - data， **payload**
+    - header **自定义请求头**
+    - accept 上传文件类型限制
+        - `.pdf,.png,.jpeg`
+        - `image/*`
+        - `video/*`
+    - directory 上传文件夹
+    - multiple 上传多个文件
+    - limit 最大可上传的文件数
+    - minSize, maxSize 文件大小限制
+    - listType='list',
+        - 通过 renderFileOperation 来自定义列表操作区
+        - 通过 previewFile 来设置预览逻辑
+    - uploadTrigger='custom' 手动触发上传，通过 useRef, 调用 `ref.current.upload();` 来实现手动上传
+    - draggable, dragMainText, dragSubText, dragIcon 实现拖拽上传
+    - beforeUpload 上传前自定义检验
+    - afterUpload 上传后操作
+    - customRequest 自定义请求

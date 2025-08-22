@@ -41,6 +41,7 @@ import { SemiTagInput } from './components/SemiTagInput'
 import { SemiTimePicker } from './components/SemiTimePicker'
 import { SemiTransfer } from './components/SemiTransfer'
 import { SemiTreeSelect } from './components/SemiTreeSelect'
+import { SemiUpload } from './components/SemiUpload'
 
 function App() {
   return (
@@ -86,7 +87,8 @@ function App() {
     // <SemiTagInput/>
     // <SemiTimePicker/>
     // <SemiTransfer/>
-    <SemiTreeSelect/>
+    // <SemiTreeSelect/>
+    <SemiUpload/>
   )
 }
 
