@@ -29,6 +29,7 @@ import { ArrayFieldDemo } from './components/gallery/ArrayFieldDemo'
 import { SemiInput } from './components/SemiInput'
 import { SemiInputNumber } from './components/SemiInputNumber'
 import { SemiPinCode } from './components/SemiPinCode'
+import { SemiRadio } from './components/SemiRadio'
 
 function App() {
   return (
@@ -62,7 +63,8 @@ function App() {
     // <ArrayFieldDemo/>
     // <SemiInput/>
     // <SemiInputNumber/>
-    <SemiPinCode/>
+    // <SemiPinCode/>
+    <SemiRadio/>
   )
 }
 

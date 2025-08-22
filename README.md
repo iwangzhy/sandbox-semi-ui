@@ -356,3 +356,17 @@ https://semi.design/zh-CN/basic/tokens
     - onChange
     - count
     - format, number, mixed,正则表达式
+- 单选框 radio https://semi.design/zh-CN/input/radio
+    - name
+    - value
+    - onChange
+    - extra 辅助文本
+    - mode , 可选值, advanced (可取消勾选)
+    - RadioGroup 单选框组
+        - direction 方向, vertical|horizontal
+        - type
+            - default
+            - button, buttonSize='large|small|middle', type=button 时不支持 extra, direction
+            - card
+            - purecard
+        - options , 通过 options 参数渲染单选框
