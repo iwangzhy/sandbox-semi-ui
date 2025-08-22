@@ -35,6 +35,7 @@ import { SemiSelect } from './components/SemiSelect'
 import { LinkedSelect } from './components/gallery/LinkedSelect'
 import { RemoteSearch } from './components/gallery/RemoteSearch'
 import { CustomSelectTrigger } from './components/gallery/CustomSelectTrigger'
+import { SemiSlider } from './components/SemiSlider'
 
 function App() {
   return (
@@ -74,7 +75,8 @@ function App() {
     // <SemiSelect/>
     // <LinkedSelect/>
     // <RemoteSearch/>
-    <CustomSelectTrigger/>
+    // <CustomSelectTrigger/>
+    <SemiSlider/>
   )
 }
 

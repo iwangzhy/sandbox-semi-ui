@@ -399,4 +399,16 @@ https://semi.design/zh-CN/basic/tokens
     - onChange
     - allowCreate 创建选项， 通常搭配 defaultActiveFirstOption 使用
         - allowCreate=true 时，不响应 optionList 的变更
-    - triggerRender 
+  - triggerRender
+- 滑动选择器 slider https://semi.design/zh-CN/input/slider
+    - showBoundary 是否在 hover 时展示最大值最小值
+    - handleDot , 滑块是否带有圆点
+    - marks 刻度
+    - max, min
+    - railStyle 滑块轨道的样式
+    - step 步长
+    - tripFormatter tooltip 的展示格式
+    - tooltipVisible
+    - value
+    - vertical
+    - onChange
