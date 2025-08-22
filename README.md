@@ -412,3 +412,10 @@ https://semi.design/zh-CN/basic/tokens
     - value
     - vertical
     - onChange
+- 开关 switch https://semi.design/zh-CN/input/switch
+    - checked, defaultChecked
+    - checkedText, uncheckedText
+    - loading
+    - size
+    - disabled
+    - onChange, 通常与 checked 搭配使用
