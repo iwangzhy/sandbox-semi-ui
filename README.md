@@ -299,6 +299,15 @@ https://semi.design/zh-CN/basic/tokens
         - 点击触发器，出现日期选择面板
     - renderDate 自定义面板日期显示内容
     - renderFullDate 自定义面板日期格子渲染
+- 时间选择器 timepicker https://semi.design/zh-CN/input/timepicker
+    - open, 显示时间选择面板
+    - format 展示的时间格式
+    - houtStep, secondStep, minuteStep 步长
+    - use12Hours
+    - type, `time|timeRange`
+    - triggerRender
+    - panelHeader, panelFooter
+    - prefix, suffix
 - 表单 form: https://semi.design/zh-CN/input/form
     - 表单内的组件需要使用 Form.xxx
     - onValueChange
