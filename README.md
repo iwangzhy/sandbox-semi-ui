@@ -490,3 +490,12 @@ https://semi.design/zh-CN/basic/tokens
     - beforeUpload 上传前自定义检验
     - afterUpload 上传后操作
     - customRequest 自定义请求
+
+## 国际化
+
+https://semi.design/zh-CN/other/locale
+
+- LocaleProvider
+- 自定义国际化组件
+    - LocaleProvider
+    - LocaleConsumer

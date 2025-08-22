@@ -42,6 +42,7 @@ import { SemiTimePicker } from './components/SemiTimePicker'
 import { SemiTransfer } from './components/SemiTransfer'
 import { SemiTreeSelect } from './components/SemiTreeSelect'
 import { SemiUpload } from './components/SemiUpload'
+import { SemiLocale } from './components/SemiLocale'
 
 function App() {
   return (
@@ -88,7 +89,8 @@ function App() {
     // <SemiTimePicker/>
     // <SemiTransfer/>
     // <SemiTreeSelect/>
-    <SemiUpload/>
+    // <SemiUpload/>
+    <SemiLocale/>
   )
 }
 
