@@ -40,6 +40,7 @@ import { SemiSwitch } from './components/SemiSwitch'
 import { SemiTagInput } from './components/SemiTagInput'
 import { SemiTimePicker } from './components/SemiTimePicker'
 import { SemiTransfer } from './components/SemiTransfer'
+import { SemiTreeSelect } from './components/SemiTreeSelect'
 
 function App() {
   return (
@@ -84,7 +85,8 @@ function App() {
     // <SemiSwitch/>
     // <SemiTagInput/>
     // <SemiTimePicker/>
-    <SemiTransfer/>
+    // <SemiTransfer/>
+    <SemiTreeSelect/>
   )
 }
 

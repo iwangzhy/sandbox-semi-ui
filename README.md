@@ -408,7 +408,21 @@ https://semi.design/zh-CN/basic/tokens
     - onChange
     - allowCreate 创建选项， 通常搭配 defaultActiveFirstOption 使用
         - allowCreate=true 时，不响应 optionList 的变更
-  - triggerRender
+    - triggerRender
+- 树选择器 treeselect https://semi.design/zh-CN/input/treeselect
+    - arrowIcon 自定义右侧下拉 icon
+    - clickToHide, 单选模式下，选择之后是否自动关闭下拉弹层
+    - expandAll 展开所有节点
+    - multiple
+    - maxTagCount
+    - filterTreeNode 过滤
+    - showFilteredOnly 只显示过滤之后的节点
+    - showClear
+    - leafOnly
+    - loadData 异步加载
+    - showLine 选项面板中选项显示连接线
+    - prefix, suffix
+    - triggerRender
 - 滑动选择器 slider https://semi.design/zh-CN/input/slider
     - showBoundary 是否在 hover 时展示最大值最小值
     - handleDot , 滑块是否带有圆点
