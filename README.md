@@ -370,3 +370,9 @@ https://semi.design/zh-CN/basic/tokens
             - card
             - purecard
         - options , 通过 options 参数渲染单选框
+- 评分 rating https://semi.design/zh-CN/input/rating
+    - size, `small|default`
+    - allowHalf 半选
+    - allowClean 再次点击清除
+    - tooltips 提示信息
+    - character 自定义字符， 一般会搭配 style 使用

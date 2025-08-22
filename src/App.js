@@ -30,6 +30,7 @@ import { SemiInput } from './components/SemiInput'
 import { SemiInputNumber } from './components/SemiInputNumber'
 import { SemiPinCode } from './components/SemiPinCode'
 import { SemiRadio } from './components/SemiRadio'
+import { SemiRating } from './components/SemiRating'
 
 function App() {
   return (
@@ -64,7 +65,8 @@ function App() {
     // <SemiInput/>
     // <SemiInputNumber/>
     // <SemiPinCode/>
-    <SemiRadio/>
+    // <SemiRadio/>
+    <SemiRating/>
   )
 }
 
