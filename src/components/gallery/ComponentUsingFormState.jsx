@@ -11,3 +11,5 @@ export default function ComponentUsingFormState() {
     />
   )
 }
+
+export const CustomSleep = ms => new Promise(resolve => setTimeout(resolve, ms))

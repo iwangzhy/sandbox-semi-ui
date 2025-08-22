@@ -31,6 +31,10 @@ import { SemiInputNumber } from './components/SemiInputNumber'
 import { SemiPinCode } from './components/SemiPinCode'
 import { SemiRadio } from './components/SemiRadio'
 import { SemiRating } from './components/SemiRating'
+import { SemiSelect } from './components/SemiSelect'
+import { LinkedSelect } from './components/gallery/LinkedSelect'
+import { RemoteSearch } from './components/gallery/RemoteSearch'
+import { CustomSelectTrigger } from './components/gallery/CustomSelectTrigger'
 
 function App() {
   return (
@@ -66,7 +70,11 @@ function App() {
     // <SemiInputNumber/>
     // <SemiPinCode/>
     // <SemiRadio/>
-    <SemiRating/>
+    // <SemiRating/>
+    // <SemiSelect/>
+    // <LinkedSelect/>
+    // <RemoteSearch/>
+    <CustomSelectTrigger/>
   )
 }
 

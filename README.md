@@ -376,3 +376,27 @@ https://semi.design/zh-CN/basic/tokens
     - allowClean 再次点击清除
     - tooltips 提示信息
     - character 自定义字符， 一般会搭配 style 使用
+- 选择器 select https://semi.design/zh-CN/input/select
+    - **直接子元素必须是 Select.Option 或 Select.OptGroup**
+    - 每个 Option 必须包含 value 属性
+    - optionList
+        - 必须包含 value，label 字段
+        - 其他字段也可以通过此方法传入
+        - multiple 多选，通常搭配 maxTagCount 使用
+    - validateStatus 校验状态， `default|warning|error`
+    - prefix, suffix
+    - innerBottomSlot，outerBottomSlot
+    - filter
+        - true: 开启搜索功能,
+        - function: 根据返回值判断是否显示
+    - autoClearSearchValue=false, 需要 multiple=true， 多选选择后保留搜索值
+    - searchPosition
+        - dropdown 位于选项上方
+        - trigger
+    - renderSelectedItem 渲染选择 option
+        - 单选，返回 option
+        - 多选，返回一个对象 { isRenderInTag:bool, content:ReactNode }
+    - onChange
+    - allowCreate 创建选项， 通常搭配 defaultActiveFirstOption 使用
+        - allowCreate=true 时，不响应 optionList 的变更
+    - triggerRender 
