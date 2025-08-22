@@ -419,3 +419,16 @@ https://semi.design/zh-CN/basic/tokens
     - size
     - disabled
     - onChange, 通常与 checked 搭配使用
+- 标签输入框 taginput https://semi.design/zh-CN/input/taginput
+    - `输入 + 回车` 就能创建一个新的 tag
+    - separator, 用于批量添加 tag
+    - showClear
+    - disabled
+    - suffix, prefix
+    - validateStatus
+    - addOnBlur, boolean 类型，失去焦点自动创建标签。
+    - allowDuplicates, boolean 类型，是否允许创建相同的 tag ，默认 true
+    - max, tag 数量超过 max 配置时，会触发 onExceed
+    - maxTagCount， 限制 tag 显示的数量
+    - renderTagItem 自定义标签渲染
+    - draggable 允许拖拽排序

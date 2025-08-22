@@ -37,6 +37,7 @@ import { RemoteSearch } from './components/gallery/RemoteSearch'
 import { CustomSelectTrigger } from './components/gallery/CustomSelectTrigger'
 import { SemiSlider } from './components/SemiSlider'
 import { SemiSwitch } from './components/SemiSwitch'
+import { SemiTagInput } from './components/SemiTagInput'
 
 function App() {
   return (
@@ -78,7 +79,8 @@ function App() {
     // <RemoteSearch/>
     // <CustomSelectTrigger/>
     // <SemiSlider/>
-    <SemiSwitch/>
+    // <SemiSwitch/>
+    <SemiTagInput/>
   )
 }
 
