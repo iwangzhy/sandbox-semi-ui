@@ -58,6 +58,7 @@ import { SemiPopconfirm } from './components/SemiPopconfirm'
 import { SemiProcess } from './components/SemiProcess'
 import { SemiSkeleton } from './components/SemiSkeleton'
 import { SemiSpin } from './components/SemiSpin'
+import { SemiToast } from './components/SemiToast'
 
 function App() {
   return (
@@ -120,7 +121,8 @@ function App() {
     // <SemiPopconfirm/>
     // <SemiProcess/>
     // <SemiSkeleton/>
-    <SemiSpin/>
+    // <SemiSpin/>
+    <SemiToast/>
   )
 }
 

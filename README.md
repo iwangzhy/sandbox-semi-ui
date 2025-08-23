@@ -689,3 +689,16 @@ https://semi.design/zh-CN/other/locale
     - indicator
     - spinning
     - tip
+- 提示 toast https://semi.design/zh-CN/feedback/toast
+    - info,success, warning, error
+    - theme, `info|success|warning|error`
+    - content 内容
+    - duration 延时关闭
+    - onClose
+    - destroyAll
+    - Toast.config
+        - bottom, left, right, top
+        - theme
+        - duration
+        - getPopupContainer 指定父级 DOM，弹层会渲染至该 DOM 中
+    - stack 是否叠放
