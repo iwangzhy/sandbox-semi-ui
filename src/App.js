@@ -52,6 +52,7 @@ import { SemiPagination } from './components/SemiPagination'
 import { SemiStep } from './components/SemiStep'
 import { SemiTabs } from './components/SemiTabs'
 import { SemiTree } from './components/SemiTree'
+import { SemiBanner } from './components/SemiBanner'
 
 function App() {
   return (
@@ -108,7 +109,8 @@ function App() {
     // <SemiPagination/>
     // <SemiStep/>
     // <SemiTabs/>
-    <SemiTree/>
+    // <SemiTree/>
+    <SemiBanner/>
   )
 }
 

@@ -615,21 +615,35 @@ https://semi.design/zh-CN/other/locale
         - tab 一个 ReactNode, 可以带图标
         - closeable 允许关闭
 - 树形控件 tree https://semi.design/zh-CN/navigation/tree
-  - treeData
-  - defaultExpandAll
-  - multiple
-  - filterTreeNode
-  - blockNode 行高亮
-  - directory  目录树模式
-  - draggable 是否允许拖拽
-  - icon 自定义图标
-  - leafOnly 多选模式下是否开启 onChange 回调入参及展示标签只有叶子节点
-  - showLine 连接线
-  - loadDate 异步加载数据
-  - showClear
-  - onChange 
-  - onExpand 展开
-  - onSelect 选中
-  - onLoad
-  - onSearch
-  - onContextMenu 右键点击
+    - treeData
+    - defaultExpandAll
+    - multiple
+    - filterTreeNode
+    - blockNode 行高亮
+    - directory 目录树模式
+    - draggable 是否允许拖拽
+    - icon 自定义图标
+    - leafOnly 多选模式下是否开启 onChange 回调入参及展示标签只有叶子节点
+    - showLine 连接线
+    - loadDate 异步加载数据
+    - showClear
+    - onChange
+    - onExpand 展开
+    - onSelect 选中
+    - onLoad
+    - onSearch
+    - onContextMenu 右键点击
+
+## 反馈类
+
+- 通知横幅 banner https://semi.design/zh-CN/feedback/banner
+    - bordered 是否展示边框，需要 fullMode = false
+    - closeIcon 自定义关闭 icon
+    - onClose
+    - description 秒数内容
+    - icon 自定义 icon
+    - type 类型
+        - info
+        - warning
+        - danger
+        - success
