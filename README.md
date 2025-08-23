@@ -671,3 +671,15 @@ https://semi.design/zh-CN/other/locale
     - title
     - visible
     - onConfirm, onCancel
+- 进度条 progress https://semi.design/zh-CN/feedback/progress
+    - percent 进度百分比
+    - size
+    - showInfo
+        - 环形 是否显示中间文本
+        - 条形 右侧是否显示文本
+    - type
+        - line
+        - circle
+    - format
+    - stroke 进度条填充色
+    - direction 进度条方向
