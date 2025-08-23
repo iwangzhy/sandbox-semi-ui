@@ -684,3 +684,8 @@ https://semi.design/zh-CN/other/locale
     - stroke 进度条填充色
     - direction 进度条方向
 - 骨架屏 skeleton https://semi.design/zh-CN/feedback/skeleton
+- 加载器 spin https://semi.design/zh-CN/feedback/spin
+    - delay
+    - indicator
+    - spinning
+    - tip
