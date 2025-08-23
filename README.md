@@ -647,3 +647,15 @@ https://semi.design/zh-CN/other/locale
         - warning
         - danger
         - success
+- 通知 notification https://semi.design/zh-CN/feedback/notification
+    - 基本用法 `Notification.open({title, content, duration})`
+    - Notification.success
+    - content
+    - duration, 默认 3 秒后自动关闭， 0 表示需要手动关闭
+    - icon 左上角图标
+    - position 弹出位置
+    - showClose
+    - theme, `normal|light`
+    - title
+    - zIndex
+    - onClick, onClose, onCloseClick

@@ -53,6 +53,7 @@ import { SemiStep } from './components/SemiStep'
 import { SemiTabs } from './components/SemiTabs'
 import { SemiTree } from './components/SemiTree'
 import { SemiBanner } from './components/SemiBanner'
+import { SemiNotification } from './components/SemiNotification'
 
 function App() {
   return (
@@ -110,7 +111,8 @@ function App() {
     // <SemiStep/>
     // <SemiTabs/>
     // <SemiTree/>
-    <SemiBanner/>
+    // <SemiBanner/>
+    <SemiNotification/>
   )
 }
 
