@@ -518,4 +518,28 @@ https://semi.design/zh-CN/other/locale
     - children 定义图标
     - duration 滚动到顶部的时间
     - visibilityHeight 出现 BackTop 按钮需要达到的滚动高度
-    - onClick 
+    - onClick
+- 面包屑 breadcrumb https://semi.design/zh-CN/navigation/breadcrumb
+    - compact, 尺寸， 默认为 true
+    - separator 分隔符，默认为 `/`
+    - showTooltip 长文本内容的出来情况
+        - boolean , 鼠标悬浮是否显示完整内容
+        - `showTooltip={{ width: 'auto' }}` 不截断
+        - `showTooltip={{ ellipsisPos: 'middle' }}` 从中间省略
+        - `showTooltip={{ opts: { position: 'topLeft' } }}`
+    - maxItemCount 路径超过配置的层级之后，自动折叠。
+    - moreType 定义点击省略的路径的展现形式 （内置的 `...` 区域的渲染类型，可选值为 'default'、'popover'）
+        - default 点击展示, 鼠标悬浮并不会（弹框）展示
+        - popover 点击展示, 鼠标悬浮（弹框）展示
+    - renderMore 自定义省略路径的展现形式
+        - 参数 restItem, 类型是一个 `ReactNode[]` , 表示隐藏的路径
+        - 返回值需要是一个 jsx 代码
+    - routers 路由对象
+        - 可以是 `字符串` 组成的数组
+        - 可以是 `{name, path, href, icon}` 组成的数组
+            - name: 展示的名称
+            - path： 路径路由
+            - href 链接的目的地
+            - icon 标签图标
+    - autoCollapse 自动折叠，通常搭配 maxItemCount(默认值：4) 使用
+    - onClick 点击事件

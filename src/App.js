@@ -45,6 +45,7 @@ import { SemiUpload } from './components/SemiUpload'
 import { SemiLocale } from './components/SemiLocale'
 import { SemiAnchor } from './components/SemiAnchor'
 import { SemiBackTop } from './components/SemiBackTop'
+import { SemiBreadcrumb } from './components/SemiBreadcrumb'
 
 function App() {
   return (
@@ -94,7 +95,8 @@ function App() {
     // <SemiUpload/>
     // <SemiLocale/>
     // <SemiAnchor/>
-    <SemiBackTop/>
+    // <SemiBackTop/>
+    <SemiBreadcrumb/>
   )
 }
 
