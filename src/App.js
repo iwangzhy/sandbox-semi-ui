@@ -46,6 +46,8 @@ import { SemiLocale } from './components/SemiLocale'
 import { SemiAnchor } from './components/SemiAnchor'
 import { SemiBackTop } from './components/SemiBackTop'
 import { SemiBreadcrumb } from './components/SemiBreadcrumb'
+import { SemiNavigation } from './components/SemiNavigation'
+import { SystemNavigation } from './components/gallery/SystemNavigation'
 
 function App() {
   return (
@@ -96,7 +98,9 @@ function App() {
     // <SemiLocale/>
     // <SemiAnchor/>
     // <SemiBackTop/>
-    <SemiBreadcrumb/>
+    // <SemiBreadcrumb/>
+    // <SemiNavigation/>
+    <SystemNavigation/>
   )
 }
 

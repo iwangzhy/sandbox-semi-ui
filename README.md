@@ -543,3 +543,25 @@ https://semi.design/zh-CN/other/locale
             - icon 标签图标
     - autoCollapse 自动折叠，通常搭配 maxItemCount(默认值：4) 使用
     - onClick 点击事件
+- 导航 navigation https://semi.design/zh-CN/navigation/navigation
+    - items 导航项目列表
+        - 可以是 `字符串` 组成的数组
+        - 可以是 `{itemKey, items?, text, icon}` 组成的数组
+            - itemKey key
+            - text 文字
+            - icon 图标
+            - items ，可选， 下级节点
+    - header
+        - logo 系统 logo
+        - text 系统名称
+        - link
+    - footer
+        - collapseButton 是否显示 `收起侧边栏` 按钮
+        - collapseText 收起按钮的文字
+    - style 定义导航组件最外层样式（作用与 Nav 组件的跟容器，即最外层包裹整个导航的 DOM 元素）
+    - bodyStyle 定义导航列表的样式( 导航列表的容器样式，不包含头部 header，底部 footer 两部分的区域)
+    - renderWrapper 自定义渲染
+    - mode
+    - toggleIconPosition NavSub 展开收起箭头的位置，默认是 right
+    - limitIndent 缩减限制
+    - expandIcon 默认下拉箭头
