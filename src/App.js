@@ -56,6 +56,7 @@ import { SemiBanner } from './components/SemiBanner'
 import { SemiNotification } from './components/SemiNotification'
 import { SemiPopconfirm } from './components/SemiPopconfirm'
 import { SemiProcess } from './components/SemiProcess'
+import { SemiSkeleton } from './components/SemiSkeleton'
 
 function App() {
   return (
@@ -116,7 +117,8 @@ function App() {
     // <SemiBanner/>
     // <SemiNotification/>
     // <SemiPopconfirm/>
-    <SemiProcess/>
+    // <SemiProcess/>
+    <SemiSkeleton/>
   )
 }
 
