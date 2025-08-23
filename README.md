@@ -565,3 +565,12 @@ https://semi.design/zh-CN/other/locale
     - toggleIconPosition NavSub 展开收起箭头的位置，默认是 right
     - limitIndent 缩减限制
     - expandIcon 默认下拉箭头
+- 翻页 Pagination https://semi.design/zh-CN/navigation/pagination
+    - total
+    - pageSize
+    - showTotal
+    - showSizeChanger
+    - showQuickJumper
+    - pageSizeOpts
+    - size, hoverShowPageSelect
+    - prevText, nextText 上一页，下一页的文本

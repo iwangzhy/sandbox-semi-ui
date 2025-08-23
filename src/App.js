@@ -48,6 +48,7 @@ import { SemiBackTop } from './components/SemiBackTop'
 import { SemiBreadcrumb } from './components/SemiBreadcrumb'
 import { SemiNavigation } from './components/SemiNavigation'
 import { SystemNavigation } from './components/gallery/SystemNavigation'
+import { SemiPagination } from './components/SemiPagination'
 
 function App() {
   return (
@@ -100,7 +101,8 @@ function App() {
     // <SemiBackTop/>
     // <SemiBreadcrumb/>
     // <SemiNavigation/>
-    <SystemNavigation/>
+    // <SystemNavigation/>
+    <SemiPagination/>
   )
 }
 
