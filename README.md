@@ -512,3 +512,10 @@ https://semi.design/zh-CN/other/locale
     - autoCollapse 动态展示下级锚点
     - showTooltip 文字超长时，鼠标悬浮，显示完整内容。通常搭配 position 使用
     - defaultAnchor 默认高亮锚点
+- 回到顶部 backtop https://semi.design/zh-CN/navigation/backtop
+    - BackTop 预设了基本的返回按钮，可以直接调用
+    - style 来定义 BackTop 按钮的样式
+    - children 定义图标
+    - duration 滚动到顶部的时间
+    - visibilityHeight 出现 BackTop 按钮需要达到的滚动高度
+    - onClick 
