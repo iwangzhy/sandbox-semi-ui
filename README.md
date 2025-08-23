@@ -574,3 +574,22 @@ https://semi.design/zh-CN/other/locale
     - pageSizeOpts
     - size, hoverShowPageSelect
     - prevText, nextText 上一页，下一页的文本
+- 步骤 step https://semi.design/zh-CN/navigation/steps
+    - current 受控组件
+    - direction
+    - hasLine, 需要 type=basic
+    - initial ， 起始序号
+    - status 步骤的状态
+        - wait
+        - process
+        - finish
+        - error
+        - warning
+    - size
+        - small
+        - default
+    - type
+        - basic
+        - fill
+        - nav
+    - onChange 

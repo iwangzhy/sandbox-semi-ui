@@ -49,6 +49,7 @@ import { SemiBreadcrumb } from './components/SemiBreadcrumb'
 import { SemiNavigation } from './components/SemiNavigation'
 import { SystemNavigation } from './components/gallery/SystemNavigation'
 import { SemiPagination } from './components/SemiPagination'
+import { SemiStep } from './components/SemiStep'
 
 function App() {
   return (
@@ -102,7 +103,8 @@ function App() {
     // <SemiBreadcrumb/>
     // <SemiNavigation/>
     // <SystemNavigation/>
-    <SemiPagination/>
+    // <SemiPagination/>
+    <SemiStep/>
   )
 }
 
