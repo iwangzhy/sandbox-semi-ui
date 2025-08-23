@@ -43,6 +43,7 @@ import { SemiTransfer } from './components/SemiTransfer'
 import { SemiTreeSelect } from './components/SemiTreeSelect'
 import { SemiUpload } from './components/SemiUpload'
 import { SemiLocale } from './components/SemiLocale'
+import { SemiAnchor } from './components/SemiAnchor'
 
 function App() {
   return (
@@ -90,7 +91,8 @@ function App() {
     // <SemiTransfer/>
     // <SemiTreeSelect/>
     // <SemiUpload/>
-    <SemiLocale/>
+    // <SemiLocale/>
+    <SemiAnchor/>
   )
 }
 

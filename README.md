@@ -499,3 +499,16 @@ https://semi.design/zh-CN/other/locale
 - 自定义国际化组件
     - LocaleProvider
     - LocaleConsumer
+
+## 导航类
+
+- 锚点 anchor https://semi.design/zh-CN/navigation/anchor
+    - getContainer 设置滚动内容的容器，默认是 window
+    - targetOffset 文档滚动结束时，锚点距离容器顶部的距离
+    - 默认定位方式通过 style 进行定义
+    - offsetTop 在滚动内容距离容器顶部达到指定偏移量时触发当前 Link 切换
+    - size  `default|small`
+    - railTheme `primary|tertiary|muted`
+    - autoCollapse 动态展示下级锚点
+    - showTooltip 文字超长时，鼠标悬浮，显示完整内容。通常搭配 position 使用
+    - defaultAnchor 默认高亮锚点
