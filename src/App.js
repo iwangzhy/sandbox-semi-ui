@@ -51,6 +51,7 @@ import { SystemNavigation } from './components/gallery/SystemNavigation'
 import { SemiPagination } from './components/SemiPagination'
 import { SemiStep } from './components/SemiStep'
 import { SemiTabs } from './components/SemiTabs'
+import { SemiTree } from './components/SemiTree'
 
 function App() {
   return (
@@ -106,7 +107,8 @@ function App() {
     // <SystemNavigation/>
     // <SemiPagination/>
     // <SemiStep/>
-    <SemiTabs/>
+    // <SemiTabs/>
+    <SemiTree/>
   )
 }
 
