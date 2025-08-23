@@ -592,4 +592,25 @@ https://semi.design/zh-CN/other/locale
         - basic
         - fill
         - nav
-    - onChange 
+    - onChange
+- 标签栏 tabs https://semi.design/zh-CN/navigation/tabs
+    - Tabs
+        - type
+            - `card`
+            - `slash`
+            - `line`
+            - `button`
+        - tabList `{tab, itemKey}` 组成的数组
+        - more, 超过指定数量是，显示 `更多` 按钮
+            - count
+            - render
+            - dropdownProps
+        - collapsible 滚动折叠
+        - renderArrow 滚动折叠模式下的切换按钮的渲染
+        - arrowPosition 指定切换按钮的位置
+        - tabBarExtraContent 附加操作区域。在tabs 的右侧
+        - activeKey 激活的 tab 的 itemKey 的值
+    - TabPane
+        - itemKey 文档的 key
+        - tab 一个 ReactNode, 可以带图标
+        - closeable 允许关闭

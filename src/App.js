@@ -50,6 +50,7 @@ import { SemiNavigation } from './components/SemiNavigation'
 import { SystemNavigation } from './components/gallery/SystemNavigation'
 import { SemiPagination } from './components/SemiPagination'
 import { SemiStep } from './components/SemiStep'
+import { SemiTabs } from './components/SemiTabs'
 
 function App() {
   return (
@@ -104,7 +105,8 @@ function App() {
     // <SemiNavigation/>
     // <SystemNavigation/>
     // <SemiPagination/>
-    <SemiStep/>
+    // <SemiStep/>
+    <SemiTabs/>
   )
 }
 
