@@ -659,3 +659,15 @@ https://semi.design/zh-CN/other/locale
     - title
     - zIndex
     - onClick, onClose, onCloseClick
+- 气泡确认框 Popconfirm  https://semi.design/zh-CN/feedback/popconfirm
+    - cancelText 取消按钮文字
+    - cancelButtonProps 取消按钮 props
+    - cancelType 取消类型
+    - content 内容
+    - icon
+    - okText
+    - okType
+    - position
+    - title
+    - visible
+    - onConfirm, onCancel
